@@ -60,8 +60,8 @@ class RawProductForm(forms.ModelForm):
     fields =[
       'title',
       'Discription',
-      'price'
-      
+      'price',
+      'email'
     ]
   def clean_title(self,*args,**kwargs):
     title = self.cleaned_data.get("title")
