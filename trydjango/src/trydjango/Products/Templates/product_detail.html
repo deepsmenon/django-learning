@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+<h1>{{ object.title }}</h1>
+<h2>{% if object.Discriprion%}{{object.Discription}}{%else%} coming soon{% endif %}</h2>
+<h>{{object.price}}</h>
+
+
+
+{% endblock %}
