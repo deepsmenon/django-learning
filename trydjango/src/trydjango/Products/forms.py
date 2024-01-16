@@ -12,7 +12,7 @@ class ProductForm(forms.ModelForm):
                     "class":"new-class-name two",
                     "id" :"my-id-for-text-area",
                     "row": 10,
-                    'cols' : 120
+                    'cols' : 1200
 
                   }
                 )
